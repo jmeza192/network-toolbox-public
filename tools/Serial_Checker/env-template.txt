@@ -1,0 +1,17 @@
+# Serial Checker Tool Environment Variables
+# Copy this to .env and fill in your actual values
+
+# ====================
+# SWITCH CREDENTIALS
+# ====================
+# Credentials for accessing network switches
+SWITCH_USERNAME=your_username_here
+SWITCH_PASSWORD=your_password_here
+
+# ====================
+# EXCEL FILE PATH
+# ====================
+# Path to the Excel file containing switch IPs
+# The file must have a column named "Switch IP"
+# Can be relative to the script directory or absolute path
+EXCEL_FILE_PATH=switches.xlsx
